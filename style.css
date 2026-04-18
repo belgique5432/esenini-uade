@@ -1,0 +1,88 @@
+* {
+    font-family: "Space Grotesk", sans-serif;
+    color: #212529;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 46px;
+}
+
+.navbar{
+    background-color: #212529;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tema-principal {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.ia-image {
+    width: 50%;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #212529;
+}
+
+footer p {
+    color: white;
+    padding: 3%;
+    margin-left: 40%;
+}
+
+.text-type-2 {
+  font-family: "Lora", serif;
+  font-weight: bolder;
+  color: #434c5e;
+  font-size: 36px;
+}
+
+.video-main {
+    width: 90%;
+}
+
+.contacto-main {
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-form {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.linea-form {
+    margin-top: 10%;
+    width: 400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.article-img {
+
+    width: 500px;
+}
+
+.interes-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
