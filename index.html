@@ -1,38 +1,66 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi sitio personal</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1 class="title">Mi primer sitio</h1>
         <nav>
-            <ul class="navbar">
-            <li><a href="">Inicio</a></li>
-            <li><a href="./intereses.html">Intereses</a></li>
-            <li><a href="./contacto.html">contacto</a></li>
+                <p>Ez.</p>
+            <ul >
+                <li><a href="index.html" class="text-dos activo">Inicio</a></li>
+                <li><a href="intereses.html" class="text-dos">Intereses</a></li>
+                <li><a href="contacto.html" class="text-dos">Contacto</a></li>
             </ul>
+
         </nav>
     </header>
-    <main class="tema-principal">
-        <div>
-        <p class="text-type-2">Consultor de software</p>
-        <p>Me llamo Ezequiel. Soy estudiante de diseño y desarrollo web</p>
-        <iframe class="video-main" width="560" height="315" src="https://www.youtube.com/embed/SaCYkPD4_K0?si=8GDfW6PgFzbA-Ba_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <main>
+        <p class="text-dos">Desarrollador y Consultor</p>
+        <h1>Construyendo la web.</h1>
+        <h2 class="text-dos subtitle">Desarrollo full-stack con enfoque en interfaces limpias, código escalable y un profundo amor por el minimalismo.</h2>
+    </main>
+
+    <section class="cards-section">
+        <p class="text-dos">Lo que me mueve</p>
+        <h2>Actividades y pasiones</h2>
+        <div class="card-container ">
+            <div class="cards-color card-large">
+                <h3>Stack y Desarrollo</h3>
+                <p class="text-dos">Ecosistema JavaScript, React y herramientas de backend como Node.js <br> y Supabase. Me obsesiona la arquitectura limpia, las terminales personalizadas y <br> exprimir al máximo el rendimiento de cada línea de código.</p>
+            </div>
+            <div class="cards-color">
+                <h3>Entornos Linux</h3>
+                <p class="text-dos">Uso de herramientas por línea de comandos y personalización de entornos de escritorio. La eficiencia estructural de distribuciones como Arch y escritorios como KDE Plasma moldean mi forma de trabajar.</p>
+            </div>
+            <div class="cards-color">
+                <h3>Motociclismo</h3>
+                <p class="text-dos">Las dos ruedas son mi escape. No solo disfruto de las rutas, sino también de la mecánica, el mantenimiento y la ingeniería detrás de la moto.</p>
+            </div>
+            <div class="cards-color card-large">
+                <h3>Gaming & Modding</h3>
+                <p class="text-dos">Inmerso en la atmósfera y la dificultad de la comunidad Soulsborne. Disfruto de la experimentación técnica, el testing en emuladores y configurar mods para llevar las mecánicas cooperativas al siguiente nivel.</p>
+            </div>
         </div>
-        <img src="./img/ia belgi.jpg" alt="Mi foto" class="ia-image">
-    </main> 
+    </section>
     <footer>
-        <p>Todos los derechos reservados</p>
-    </footer>   
+        <div>
+            <p class="text-dos">Hablemos</p>
+            <p class="footer-big-text">¿Un café o <br> código?</p>
+            <p class="text-dos">Siempre estoy abierto a discutir nuevos proyectos, resolver problemas de arquitectura o charlar sobre configuraciones de sistema. </p>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/ezequiel-senini-dev/">LinkedIn</a></li>
+                <li><a href="">esenini@gmail.com</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

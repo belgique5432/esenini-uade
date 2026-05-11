@@ -1,53 +1,54 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi sitio personal</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1 class="title">Mi primer sitio</h1>
         <nav>
-            <ul class="navbar">
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./intereses.html">Intereses</a></li>
-            <li><a href="./contacto.html">contacto</a></li>
+                <p>Ez.</p>
+            <ul >
+                <li><a href="index.html" class="text-dos">Inicio</a></li>
+                <li><a href="intereses.html" class="text-dos">Intereses</a></li>
+                <li><a href="contacto.html" class="text-dos activo">Contacto</a></li>
             </ul>
+
         </nav>
     </header>
-    <section class="contacto-main">
-<form action="/enviar-contacto" method="POST" class="contacto-form">
-        <h2>Contáctanos</h2>
-        
-        <div class="linea-form">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" placeholder="nombre completo" required>
+    <section class="contact-sec">
+        <div class="contact-text">
+        <p class="text-dos">Disponibilidad</p>
+        <h2>Hablemos de código.</h2>
+        <p class="text-dos">¿Tenés un proyecto en mente, una consulta sobre arquitectura o querés hablar sobre Linux? Envíame un mensaje y me pondré en contacto.</p>
         </div>
-
-        <div class="linea-form"> 
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" placeholder="falso123@gmail.com" required>
-        </div>
-
-        <div class="linea-form">
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
-        </div>
-
-        <button class="linea-form" type="submit">Enviar Mensaje</button>
-    </form>
+        <div class="form-div">
+        <form action="https://formspree.io/f/mayvlgqk" method="POST">
+            <p class="text-dos">Nombre</p>
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <p class="text-dos">Email</p>
+            <input type="email" name="_replyto" placeholder="Tu email" required>
+            <p class="text-dos">Mensaje</p>
+            <textarea name="message" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+            </div>
     </section>
-
     <footer>
-        <p>Todos los derechos reservados</p>
-    </footer>   
+        <div>
+            <p class="text-dos">Hablemos</p>
+            <p class="footer-big-text">¿Un café o <br> código?</p>
+            <p class="text-dos">Siempre estoy abierto a discutir nuevos proyectos, resolver problemas de arquitectura o charlar sobre configuraciones de sistema. </p>
+        </div>
+        <div>
+            <ul>
+                <li><a href="https://github.com/belgique5432">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/ezequiel-senini-dev/">LinkedIn</a></li>
+                <li><a href="mailto:esenini@gmail.com">esenini@gmail.com</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
